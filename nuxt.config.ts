@@ -5,7 +5,6 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Yarger Development — Jackson Yarger',
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32.png' },
@@ -18,6 +17,52 @@ export default defineNuxtConfig({
     },
   },
 
+  site: {
+    url: 'https://yargerdevelopment.com',
+    name: 'Yarger Development',
+    description: 'Custom websites, web apps, and integrations for small businesses and big ideas. Fast turnaround, flat-rate pricing. Phoenix, Arizona web developer.',
+    defaultLocale: 'en',
+  },
+
+  ogImage: {
+    enabled: false,
+  },
+
+  schemaOrg: {
+    identity: {
+      type: 'LocalBusiness',
+      name: 'Yarger Development',
+      description: 'Custom websites, web apps, and integrations for small businesses and big ideas. Fast turnaround, flat-rate pricing.',
+      url: 'https://yargerdevelopment.com',
+      logo: 'https://yargerdevelopment.com/icon-512.png',
+      image: 'https://yargerdevelopment.com/icon-512.png',
+      email: 'jackson@yargerweb.com',
+      address: {
+        addressLocality: 'Phoenix',
+        addressRegion: 'AZ',
+        addressCountry: 'US',
+      },
+      priceRange: '$100-$500+',
+      founder: {
+        type: 'Person',
+        name: 'Jackson Yarger',
+        jobTitle: 'Full-Stack Web Developer',
+        url: 'https://yargerdevelopment.com/#about',
+      },
+      sameAs: [
+        'https://calendly.com/yargerweb',
+      ],
+    },
+  },
+
+  sitemap: {
+    sources: ['/'],
+  },
+
+  robots: {
+    allow: '/',
+  },
+
   nitro: {
     preset: "cloudflare-pages",
 
@@ -27,5 +72,5 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: ["nitro-cloudflare-dev"]
+  modules: ["@nuxtjs/seo", "nitro-cloudflare-dev"]
 })

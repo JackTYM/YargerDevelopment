@@ -301,6 +301,19 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
+useSeoMeta({
+  title: 'Yarger Development — Custom Websites & Web Apps',
+  description: 'Custom websites, web apps, and integrations for small businesses and big ideas. Fast turnaround, flat-rate pricing. Phoenix, Arizona web developer.',
+  ogTitle: 'Yarger Development — Custom Websites & Web Apps',
+  ogDescription: 'Custom websites, web apps, and integrations for small businesses and big ideas. Fast turnaround, flat-rate pricing.',
+  ogImage: 'https://yargerdevelopment.com/og-image.png',
+  ogUrl: 'https://yargerdevelopment.com',
+  ogType: 'website',
+  twitterCard: 'summary',
+  twitterTitle: 'Yarger Development — Custom Websites & Web Apps',
+  twitterDescription: 'Custom websites, web apps, and integrations for small businesses and big ideas. Fast turnaround, flat-rate pricing.',
+})
+
 const NAV_LINKS = [
   { label: 'Services', href: '#services' },
   { label: 'Work', href: '#work' },
