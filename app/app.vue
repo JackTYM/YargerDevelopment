@@ -5,7 +5,10 @@
     <!-- Navigation -->
     <nav :class="['nav', { scrolled }]">
       <div class="nav-inner">
-        <a href="#" class="logo">Yarger<span class="accent">Development</span></a>
+        <a href="#" class="logo">
+          <img src="/yarger-dev-mark-dark.svg" alt="YD" class="logo-icon" />
+          Yarger<span class="accent">Development</span>
+        </a>
         <ul class="nav-links">
           <li v-for="link in NAV_LINKS" :key="link.href">
             <a :href="link.href" class="nav-link">{{ link.label }}</a>
@@ -281,8 +284,11 @@
     <footer class="footer">
       <div class="container footer-inner">
         <div>
-          <div class="footer-logo">Yarger<span class="accent">Development</span></div>
-          <div class="footer-copy">© 2025 Jackson Yarger. All rights reserved.</div>
+          <div class="footer-logo">
+            <img src="/yarger-dev-mark-dark.svg" alt="YD" class="logo-icon" />
+            Yarger<span class="accent">Development</span>
+          </div>
+          <div class="footer-copy">© 2026 Jackson Yarger. All rights reserved.</div>
         </div>
         <div class="footer-links">
           <a v-for="link in NAV_LINKS" :key="link.href" :href="link.href" class="footer-link">
@@ -558,7 +564,8 @@ label { display: block; font-size: 13px; font-weight: 500; color: #94a3b8; margi
   border-bottom: 1px solid #1a2744;
 }
 .nav-inner { max-width: 1160px; margin: 0 auto; padding: 0 32px; height: 68px; display: flex; align-items: center; justify-content: space-between; }
-.logo { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 20px; color: #e2e8f0; text-decoration: none; letter-spacing: -0.02em; }
+.logo { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 20px; color: #e2e8f0; text-decoration: none; letter-spacing: -0.02em; display: flex; align-items: center; gap: 10px; }
+.logo-icon { height: 28px; width: auto; }
 .nav-links { display: flex; gap: 32px; list-style: none; }
 .nav-link { color: #94a3b8; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s; }
 .nav-link:hover { color: #e2e8f0; }
@@ -689,7 +696,7 @@ label { display: block; font-size: 13px; font-weight: 500; color: #94a3b8; margi
 /* Footer */
 .footer { background: #050711; border-top: 1px solid #0f1a2e; padding: 48px 0; }
 .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 24px; }
-.footer-logo { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 20px; margin-bottom: 6px; }
+.footer-logo { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 20px; margin-bottom: 6px; display: flex; align-items: center; gap: 10px; }
 .footer-copy { font-size: 13px; color: #334155; }
 .footer-links { display: flex; gap: 32px; }
 .footer-link { font-size: 13px; color: #475569; text-decoration: none; transition: color 0.2s; }
