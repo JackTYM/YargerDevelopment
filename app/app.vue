@@ -6,8 +6,7 @@
     <nav :class="['nav', { scrolled }]">
       <div class="nav-inner">
         <a href="#" class="logo">
-          <img src="/yarger-dev-mark-dark.svg" alt="YD" class="logo-icon" />
-          Yarger<span class="accent">Development</span>
+          <img src="/yarger-dev-mark-dark.svg" alt="YD" class="logo-icon" />Yarger<span class="accent">Development</span>
         </a>
         <ul class="nav-links">
           <li v-for="link in NAV_LINKS" :key="link.href">
@@ -285,8 +284,7 @@
       <div class="container footer-inner">
         <div>
           <div class="footer-logo">
-            <img src="/yarger-dev-mark-dark.svg" alt="YD" class="logo-icon" />
-            Yarger<span class="accent">Development</span>
+            <img src="/yarger-dev-mark-dark.svg" alt="YD" class="logo-icon" />Yarger<span class="accent">Development</span>
           </div>
           <div class="footer-copy">© 2026 Jackson Yarger. All rights reserved.</div>
         </div>
