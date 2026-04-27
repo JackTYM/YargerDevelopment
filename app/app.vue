@@ -325,7 +325,7 @@ const NAV_LINKS = [
 
 const STATS = [
   { num: '6+', label: 'Years Experience' },
-  { num: '10+', label: 'Projects Built' },
+  { num: '50+', label: 'Projects Built' },
   { num: '100%', label: 'Client Satisfaction' },
 ]
 
@@ -343,7 +343,7 @@ const PROJECTS = [
     title: 'Charmventory',
     url: 'charmventory.com',
     desc: 'A fully-featured charm collection tracker — inventory management, wishlist, rarity breakdowns, and a community database for Pandora enthusiasts.',
-    tags: ['Web App', 'React', 'Database'],
+    tags: ['Web App', 'Nuxt', 'Database'],
     img: '/uploads/pasted-1777239100969-0.png',
   },
   {
