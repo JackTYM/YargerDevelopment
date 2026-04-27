@@ -50,7 +50,7 @@ export default defineNuxtConfig({
         url: 'https://yargerdevelopment.com/#about',
       },
       sameAs: [
-        'https://calendly.com/yargerweb',
+        'https://calendly.com/yargerdevelopment',
       ],
     },
   },

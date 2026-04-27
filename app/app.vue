@@ -423,7 +423,7 @@ const FAQS = [
 
 const CONTACT_DETAILS = [
   { icon: '📧', label: 'Email', value: 'jackson@yargerweb.com' },
-  { icon: '📅', label: 'Book a Call', value: 'calendly.com/yargerweb' },
+  { icon: '📅', label: 'Book a Call', value: 'calendly.com/yargerdevelopment' },
   { icon: '⚡', label: 'Response Time', value: 'Within 24 hours' },
 ]
 
@@ -465,7 +465,7 @@ async function handleSubmit() {
     }
 
     formSent.value = true
-    window.open('https://calendly.com/yargerweb/30min', '_blank')
+    window.open('https://calendly.com/yargerdevelopment/30min', '_blank')
   } catch (e) {
     formError.value = e?.message || 'Something went wrong. Please try again.'
   } finally {
