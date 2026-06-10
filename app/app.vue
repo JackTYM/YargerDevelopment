@@ -422,7 +422,7 @@ const FAQS = [
 ]
 
 const CONTACT_DETAILS = [
-  { icon: '📧', label: 'Email', value: 'jackson@yargerweb.com' },
+  { icon: '📧', label: 'Email', value: 'jackson@yargerdevelopment.com' },
   { icon: '📅', label: 'Book a Call', value: 'calendly.com/yargerdevelopment' },
   { icon: '⚡', label: 'Response Time', value: 'Within 24 hours' },
 ]

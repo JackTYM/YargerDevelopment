@@ -36,7 +36,7 @@ export default defineNuxtConfig({
       url: 'https://yargerdevelopment.com',
       logo: 'https://yargerdevelopment.com/icon-512.png',
       image: 'https://yargerdevelopment.com/icon-512.png',
-      email: 'jackson@yargerweb.com',
+      email: 'jackson@yargerdevelopment.com',
       address: {
         addressLocality: 'Phoenix',
         addressRegion: 'AZ',
